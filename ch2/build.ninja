@@ -1,0 +1,4 @@
+rule cc
+        command = clang++ -O3 $in -o $out
+
+build ex2: cc ex2_2_difference_quotients_of_the_norm.cpp
